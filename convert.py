@@ -1,16 +1,11 @@
 import argparse
 import pandas as pd 
 
-# Import pandas
-import pandas as pd
-
-
 parser = argparse.ArgumentParser(description="flownet anomaly detection")
 parser.add_argument('--input_file', type=str, default="", help='Excel file')
 parser.add_argument('--output_file', type=str, default="output.txt", help='txt output file')
 parser.add_argument('--start_index', type=int, default=1016, help='edit start index')
 args = parser.parse_args()
-
 
 SET_NAME_COMMAND       = """set name "%s" """
 SET_SRCINTF_COMMAND    = """set srcintf "%s" """
