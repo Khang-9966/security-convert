@@ -1,9 +1,9 @@
 # security-convert
-# env
+# Env
 python3
-# install
+# Install
 pip install -r requirements.txt
-# use
+# Use
 python convert.py --input_file input.xlsx --output_file test_output.txt --start_index 1000
 
 python single-convert.py --input_file input.xlsx --output_file single_output.txt
